@@ -27,6 +27,8 @@ Easily create dynamic slide paths, rails, or traversal systems using splines —
 
 - **Flexible Use Cases**  
   Works for human characters, vehicles, trains, slot cars, or cinematic camera paths.
+  
+## ℹ️ For detailed instructions, frequently asked questions, or additional features [Wiki](https://github.com/K3vC0re/SlideLineSystem/wiki).
 
 ---
 
@@ -34,6 +36,8 @@ Easily create dynamic slide paths, rails, or traversal systems using splines —
 
 Getting started with the SlideLine System is quick and easy — everything runs directly in Blueprints.
 This is just a short overview. For detailed setup instructions, please refer to the Wiki.
+
+> ⚠️ **Safety First:** Always back up your project before integrating new systems!
 
 1. **Add the Component / Interface**  
    - Add the `BP_SlideLine_Component` & Implement the `BPI_SlideLine_Interface` to your character.
@@ -54,7 +58,8 @@ This is just a short overview. For detailed setup instructions, please refer to 
      `/All/Game/SlideLineSystem/Blueprints/SlideLineSystem/Settings/`
    - The project contains precise information about the data file.
   
-6. **Play & Test**  
+6. **Play & Test**
+   - Place a SlideLineActor in your level,adjust the spline points to shape your desired track
    - Hit Play — your character should now smoothly slide along the spline.  
    - Use Lean or Jump during the slide to test transitions and camera movement.
 
@@ -63,9 +68,9 @@ This is just a short overview. For detailed setup instructions, please refer to 
 
 > ⚠️ **Safety First:** Always back up your project before integrating new systems!
 
+## ℹ️ For a more detailed and guided setup guide, please visit the [Setup](https://github.com/K3vC0re/SlideLineSystem/wiki/SetupGuide).
+
 ---
-
-
 
 ## ⚙️ Customization
 
@@ -74,6 +79,7 @@ This is just a short overview. For detailed setup instructions, please refer to 
 - Adjust the **Spline Transition Force (Factor X)** for smoother or longer jumps between splines.  
 - All Blueprints are **fully commented** and easy to extend for custom logic or visuals.
 
+## ℹ️ For more Informations visit [Customization](https://github.com/K3vC0re/SlideLineSystem/wiki/Customization)
 ---
 
 ## 🧠 Intended Audience
@@ -82,7 +88,8 @@ The SlideLine System is made for **everyone working in Unreal Engine**, especial
 
 - Indie and solo developers  
 - Technical artists and designers  
-- Teams building modular gameplay or cinematic experiences  
+- Teams building modular gameplay or cinematic experiences
+- Fast Prototyping 
 
 > Optimized for Blueprint-based projects but flexible enough for any Unreal Engine workflow.
 
@@ -105,6 +112,8 @@ If issues persist, don’t worry — I’ll help you out personally.
 
 📧 **Support:** [contact@kevcore.com](mailto:contact@kevcore.com)
 
+## ℹ️ For further assistance, please visit the [FAQ Wiki](https://github.com/K3vC0re/SlideLineSystem/wiki/FAQ).
+
 ---
 
 ## 🧱 Credits
@@ -124,6 +133,8 @@ The SlideLine System is currently in **Version 1.0**.
 I’m actively working on updates with **camera improvements, smoother transitions**, and new features to enhance **usability, performance, and user experience**.
 
 💡 Suggestions and bug reports are always welcome — every piece of feedback helps improve the system for everyone.
+
+## ℹ️ More Contact Platforms: [Contact](https://github.com/your-username/your-repository/wiki/Contact)
 
 ---
 
