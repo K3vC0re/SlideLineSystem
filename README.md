@@ -1,31 +1,113 @@
-# 🌀 SlideLine System
+# 🎢 SlideLine System
 
-The **SlideLine System** is a fully Blueprint-based spline movement solution for Unreal Engine.  
-It allows your character to move and rotate dynamically along splines — perfect for rail sequences, wall-running mechanics, or cinematic traversal systems.
-
----
-
-## 🎯 Key Features
-- Plug & Play integration — no manual setup required  
-- Works with any character using the Unreal Character class  
-- Supports variable speed, rotation, and spline-based animation control  
-- Compatible with Niagara VFX and Enhanced Input  
-- Optimized for Third Person projects  
+A fully Blueprint-based spline sliding system for **Unreal Engine 5**, designed for games, cinematics, and prototypes.  
+Easily create dynamic slide paths, rails, or traversal systems using splines — with jump, lean, crouch, obstacle detection, and customizable camera behavior.
 
 ---
 
-## ⚙️ Documentation
-📘 Full documentation is available here:  
-[👉 SlideLine System Docs](https://deinname.github.io/SlideLineSystemDocs)
+## 🚀 Features
+
+- **Blueprint-Based Spline Sliding System**  
+  100% built in Blueprints — no C++ required.  
+
+- **Dynamic Sliding Mechanics**  
+  Slide, jump, lean, crouch, dodge obstacles, and control speed along the spline.  
+
+- **Advanced Curve Handling**  
+  Fall off when taking curves too sharply or misaligned.  
+
+- **Modular & Fully Customizable**  
+  Every system element is exposed in Blueprints for easy modification and expansion.  
+
+- **Integrated VFX & SFX**  
+  Comes preconfigured with Niagara and Audio hooks — ready to customize.  
+
+- **Cinematic Camera System**  
+  Includes a custom third-person camera designed for smooth motion along splines.  
+
+- **Flexible Use Cases**  
+  Works for human characters, vehicles, trains, slot cars, or cinematic camera paths.
 
 ---
 
-## 🧩 Compatibility
-- Unreal Engine **5.0 – 5.3**  
-- Blueprint-only (no C++ required)  
-- Works with full-body skeletons and custom meshes  
+## 🧩 Installation & Setup
+
+1. Import the **SlideLine System** folder into your Unreal Engine project.  
+2. Add the **SlideLine Component** to your character.  
+3. Implement the **SlideLine Interface** in your Character Blueprint.  
+4. Follow the **Setup Guide (PDF)** included in the repository or on the Fab Marketplace page.  
+5. Place a **SlideLineActor** in your level, adjust the spline points — and start sliding!  
+
+> ⚠️ **Safety First:** Always back up your project before integrating new systems!
 
 ---
 
-## 💬 Support
-If you encounter issues or want to suggest improvements, feel free to open an **Issue** or contact me via my Marketplace profile.
+## ⚙️ Customization
+
+- All core parameters can be adjusted in the `DA_SlideLine_Settings` data asset.  
+- Enable or disable gameplay features such as Jumping, Crouching, Speed Control, Lean, Fall Off Curve, Camera Behavior, Hit Collision, Automatic Lean Reset, Slide Direction Change, Spline Switching, VFX, and SFX.  
+- Adjust the **Spline Transition Force (Factor X)** for smoother or longer jumps between splines.  
+- All Blueprints are **fully commented** and easy to extend for custom logic or visuals.
+
+---
+
+## 🧠 Intended Audience
+
+The SlideLine System is made for **everyone working in Unreal Engine**, especially those who love using Blueprints.
+
+- Indie and solo developers  
+- Technical artists and designers  
+- Teams building modular gameplay or cinematic experiences  
+
+> Optimized for Blueprint-based projects but flexible enough for any Unreal Engine workflow.
+
+---
+
+## 🐞 Troubleshooting
+
+If something doesn’t work as expected:
+
+- **Animations not working:**  
+  Ensure your Animation BP links correctly to `SlideLineAnim_BP`.
+
+- **VFX / SFX not playing:**  
+  Check that Niagara and audio are enabled, and assets are referenced in `DA_SlideLine_Settings`.
+
+- **Character doesn’t slide:**  
+  Make sure the SlideLine Component and Interface are correctly added to your character, and inputs are set up.
+
+If issues persist, don’t worry — I’ll help you out personally.
+
+📧 **Support:** [contact@kevcore.com](mailto:contact@kevcore.com)
+
+---
+
+## 🧱 Credits
+
+- **System & Blueprints:** Kevcore  
+- **Animations:** [Ultimate Traversal Anims](https://www.unrealengine.com/marketplace/en-US/product/ultimate-traversal-anims)  
+- **VFX:** Based on [Stylized Sword Trails VFX Pack](https://www.unrealengine.com/marketplace/) — modified and adapted for the SlideLine System  
+- **SFX:** From [Pixabay.com](https://pixabay.com/sound-effects/) (Free for commercial use)
+
+> All third-party assets remain the property of their original creators and are integrated under respective licenses.
+
+---
+
+## 🔄 Ongoing Development
+
+The SlideLine System is currently in **Version 1.0**.  
+I’m actively working on updates with **camera improvements, smoother transitions**, and new features to enhance **usability, performance, and user experience**.
+
+💡 Suggestions and bug reports are always welcome — every piece of feedback helps improve the system for everyone.
+
+---
+
+## 📄 License
+
+This project is licensed under the **Unreal Engine Marketplace EULA**.  
+Do not redistribute, resell, or share the included assets outside of projects using the SlideLine System.
+
+---
+
+### ❤️ Created by Kevcore  
+*Designed for creators. Built for Blueprint developers.*
