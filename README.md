@@ -111,7 +111,7 @@ If issues persist, don’t worry — I’ll help you out personally.
 
 - **System & Blueprints:** Kevcore  
 - **Animations:** [Ultimate Traversal Anims](https://www.unrealengine.com/marketplace/en-US/product/ultimate-traversal-anims)  
-- **VFX:** Based on [Stylized Sword Trails VFX Pack](https://www.unrealengine.com/marketplace/) — modified and adapted for the SlideLine System  
+- **VFX:** Based on [Stylized Sword Trails VFX Pack](https://www.fab.com/listings/bd2ba790-7266-49f3-bb4f-8049f6797c01) — modified and adapted for the SlideLine System  
 - **SFX:** From [Pixabay.com](https://pixabay.com/sound-effects/) (Free for commercial use)
 
 > All third-party assets remain the property of their original creators and are integrated under respective licenses.
