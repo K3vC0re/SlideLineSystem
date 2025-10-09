@@ -30,17 +30,42 @@ Easily create dynamic slide paths, rails, or traversal systems using splines —
 
 ---
 
-## 🧩 Installation & Setup
+## 🕹️ How to Use
 
-1. Import the **SlideLine System** folder into your Unreal Engine project.  
-2. Add the **SlideLine Component** to your character.  
-3. Implement the **SlideLine Interface** in your Character Blueprint.  
-4. Follow the **Setup Guide (PDF)** included in the repository or on the Fab Marketplace page.  
-5. Place a **SlideLineActor** in your level, adjust the spline points — and start sliding!  
+Getting started with the SlideLine System is quick and easy — everything runs directly in Blueprints.
+This is just a short overview. For detailed setup instructions, please refer to the Wiki.
+
+1. **Add the Component / Interface**  
+   - Add the `BP_SlideLine_Component` & Implement the `BPI_SlideLine_Interface` to your character.
+
+2. **Setup Blueprint**  
+   - Copy all Red Nodes.
+   - Copy all Interfaces Functions
+     
+3. **Create a Trace Channel**  
+   - Create a new Trace`SlideLine`   
+
+4. **Setup Animation Blueprint**  
+   - Link the `SlideLine_AnimBP` to your current Active Animation Blueprint
+   - Copy 2 Green Nodes
+
+5. **Tune Your Settings**  
+   - Open the `DA_SlideLine_Settings` data asset:  
+     `/All/Game/SlideLineSystem/Blueprints/SlideLineSystem/Settings/`
+   - The project contains precise information about the data file.
+  
+6. **Play & Test**  
+   - Hit Play — your character should now smoothly slide along the spline.  
+   - Use Lean or Jump during the slide to test transitions and camera movement.
+
+> 💡 **Tip:** For advanced use, you can connect custom logic (like triggers, effects, or camera events) via the interface events — no need to edit the core system!
+
 
 > ⚠️ **Safety First:** Always back up your project before integrating new systems!
 
 ---
+
+
 
 ## ⚙️ Customization
 
