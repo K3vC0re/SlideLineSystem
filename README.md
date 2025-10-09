@@ -37,7 +37,8 @@ Easily create dynamic slide paths, rails, or traversal systems using splines —
 Getting started with the SlideLine System is quick and easy — everything runs directly in Blueprints.
 This is just a short overview. For detailed setup instructions, please refer to the Wiki.
 
-> ⚠️ **Safety First:** Always back up your project before integrating new systems!
+ ⚠️ **Safety First:** Always back up your project before integrating new systems!
+ 
 
 1. **Add the Component / Interface**  
    - Add the `BP_SlideLine_Component` & Implement the `BPI_SlideLine_Interface` to your character.
